@@ -1,0 +1,114 @@
+
+[
+  {
+    "title": "SAE 1.0 Master Mind – LeonFvt",
+    "description": ["Description of Project 1."],
+    "image": "img1",
+    "details": [
+      {
+        "title": "Présentation du projet",
+        "paragraph": "Le projet consistait à programmer une version du jeu de Master Mind. Dans ce jeu, deux joueurs s’affrontent : l’un choisit un code secret composé d’une séquence de pions de couleur, et l’autre doit deviner ce code en faisant des propositions. Le codeur donne des indices après chaque proposition, indiquant le nombre de pions de la bonne couleur, bien placés et mal placés.",
+        "image": "img1-1"
+      },
+        {
+            "title": "Processus de développement",
+            "paragraph": "Pour développer ce jeu, j’ai d’abord conçu la structure de base, en utilisant un squelette de code fourni. J’ai écrit le code pour les fonctions nécessaires à la version de base, en suivant scrupuleusement leurs spécifications.",
+            "image": "img1-2"
+        },
+        {
+            "title": "Problèmes rencontrés et solutions",
+            "paragraph": "Un des principaux défis a été de gérer la stratégie de l’ordinateur. C’était complexe car l’ordinateur devait proposer des codes en respectant l’ordre lexicographique et en éliminant les codes qui n’étaient pas compatibles avec les propositions précédentes. Pour résoudre ce problème, j’ai dû travailler avec des matrices et des tableaux pour stocker les propositions et les réponses, et j’ai écrit des fonctions pour passer au code suivant en respectant l’ordre lexicographique.",
+            "image": "img1-3"
+        },
+        {
+            "title": "Compétences acquises ou renforcées",
+            "paragraph": "À travers ce projet, j’ai renforcé mes compétences en programmation Java, notamment en programmation orientée objet. J’ai également développé une compréhension approfondie de la manipulation des tableaux et des matrices, de l’utilisation des structures de contrôle comme les boucles, et de la gestion des entrées de l’utilisateur. De plus, j’ai appris à évaluer des stratégies de jeu et à travailler sur des extensions pour améliorer un programme de base.",
+            "image": "img1-4"
+        }
+    ]
+  },
+  {
+    "title": "SAE 1.05 | Site The last of escape",
+    "description": ["Description of Project 2."],
+    "image": "img2",
+    "details": [
+      {
+        "title": "travail n°1",
+        "paragraph": "Le travail n°1 consistait à établir les mots-clés de l’Escape Game. Nous avons ainsi identifié le thème du jeu (burger), le public visé (adolescents et adultes), le lieu où se déroulerait l’Escape Game (cuisine), l’ambiance que nous souhaitions créer (moderne, rush en cuisine) et le but que les joueurs devraient atteindre (collaborer, s’amuser, mémoriser).",
+        "image": "img2-1"
+      },
+      {
+        "title": "travail n°2",
+        "paragraph": "Nous avons ensuite écrit un synopsis détaillé de notre Escape Game. Dans celui-ci, les joueurs sont embauchés pour une soirée par le restaurant « Retour vers la friture« , qui a un défaut de personnel. Leur mission est de préparer le burger parfait pour un client très exigeant, « Rimuru Tempest« , communément appelé un « blob« . Malheureusement, l’ancien chef qui leur avait laissé les instructions à suivre a été dévoré par Rimuru, et les joueurs doivent donc trouver un moyen d’obtenir les accessoires de cuisine nécessaires pour préparer le burger. Les joueurs doivent également faire face à des soupapes sous pression qui projettent du gaz partout dans la cuisine, ce qui complique leur mission. En outre, ils ne disposent que de deux appels pour communiquer avec le chef, qui leur donnera des indications supplémentaires pour réussir leur mission. Le jeu se termine lorsque les joueurs parviennent à préparer le burger parfait dans les délais impartis.",
+        "image": "img2-2"
+      },
+      {
+        "title": "deuxième livrable",
+        "paragraph": "Pour le deuxième livrable de notre SAE 1.05, nous avons créé un scénario d’Escape Game post-apocalyptique dans lequel les joueurs se retrouvent coincés dans un chalet de montagne poursuivi par une horde d’infectés. Les joueurs doivent réussir à contacter Jackson, la ville la plus proche, puis trouver un moyen d’ouvrir une porte blindée pour s’enfuir avant l’arrivée des infectés.",
+        "image": "img2-2"
+      },
+      {
+        "title": "Les étapes",
+        "paragraph": "La première étape du jeu consiste à trouver un transmetteur radio pour contacter Jackson. Les joueurs doivent rentrer la fréquence du talkie-walkie de Jackson en utilisant le morse, car le transmetteur radio est très ancien et ne possède pas de micro. Pour contacter Jackson, un de leurs camarades doit également tourner une manivelle pour alimenter le poste. Une fois le contact établi, les joueurs apprennent que Jackson viendra les chercher dans plus de trois heures, et qu’ils doivent donc trouver un moyen de s’en sortir seuls. La deuxième étape consiste à ouvrir la porte blindée du sous-sol où les joueurs se cachent. Pour cela, ils doivent résoudre une série d’énigmes et de puzzles. Ils découvrent une salle secrète contenant des écrans numérotés et une table avec des feuilles contenant des inscriptions codées. En associant les numéros des écrans avec les numéros cachés, les joueurs obtiennent la première partie du code de la porte. En utilisant un chemin dessiné sur une des feuilles, les joueurs obtiennent la deuxième partie du code. En associant les deux parties, les joueurs parviennent à ouvrir la porte blindée. La troisième et dernière étape consiste à activer un système anti-infecté pour repousser les infectés qui approchent. Les joueurs trouvent un étrange fusil futuriste qui nécessite une fréquence pour fonctionner. En utilisant le code du coffre, qui contient des fréquences radio présentées dans l’ordre alphabétique, les joueurs parviennent à activer le système anti-infecté. Le fusil commence à émettre un son strident qui assomme tous les infectés autour du chalet. Les joueurs peuvent alors sortir du sous-sol et prendre la fuite.",
+        "image": "img2-2"
+      },
+
+      {
+        "title": "le site",
+        "paragraph": "Le site internet « The Last of Escape » a été créé en utilisant les langages HTML et CSS. Le site comporte une page d’accueil qui permet aux utilisateurs de naviguer à travers les différentes sections du site.\n\nLe menu de navigation se compose de quatre sections : accueil, étapes, réserver et contact. Les utilisateurs peuvent facilement accéder à la section souhaitée en cliquant sur l’un des liens du menu.\n\nLa section « étapes » est subdivisée en trois parties, chacune détaillant les différentes étapes de l’aventure. Les utilisateurs peuvent découvrir comment s’échapper de la horde d’infectés en suivant les instructions et les indices fournis dans chaque étape.\n\nLa section « réservée » permet aux utilisateurs de réserver leur place pour l’expérience « The Last of Escape« . Les utilisateurs peuvent choisir le nombre de joueurs et la date de leur choix.\n\nLa section « contact » permet aux utilisateurs de contacter les créateurs de l’expérience « The Last of Escape« . Ils peuvent donner leur avis sur l’aventure ou poser des questions en remplissant un formulaire ou en envoyant un e-mail.",
+        "image": "img2-2"
+      }
+    ]
+  },
+  {
+    "title": "Project 3",
+    "description": ["Description of Project 3."],
+    "image": "img3",
+    "details": [
+      {
+        "title": "Partie 1",
+        "paragraph": "Paragraph 1 of Project 3.",
+        "image": "img3-1"
+      },
+      {
+        "title": "Partie 2",
+        "paragraph": "Paragraph 2 of Project 3.",
+        "image": "img3-2"
+      }
+    ]
+  },
+  {
+    "title": "Project 4",
+    "description": ["Description of Project 4."],
+    "image": "img4",
+    "details": [
+      {
+        "title": "Partie 1",
+        "paragraph": "Paragraph 1 of Project 4.",
+        "image": "img4-1"
+      },
+      {
+        "title": "Partie 2",
+        "paragraph": "Paragraph 2 of Project 4.",
+        "image": "img4-2"
+      }
+    ]
+  },
+  {
+    "title": "Project 5",
+    "description": ["Description of Project 5."],
+    "image": "img5",
+    "details": [
+      {
+        "title": "Partie 1",
+        "paragraph": "Paragraph 1 of Project 5.",
+        "image": "img5-1"
+      },
+      {
+        "title": "Partie 2",
+        "paragraph": "Paragraph 2 of Project 5.",
+        "image": "img5-2"
+      }
+    ]
+  }
+]

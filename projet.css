@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+#projectsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: #2e2e2e;
+    transition: flex 1s ease-in-out, max-height 0.3s ease-in-out; /* Include transition for flex changes */
+    opacity: 1;
+    flex-grow: 1;     /* Allow flex items to grow to fill available space */
+    flex-shrink: 1;   /* Allow flex items to shrink if needed */
+    flex-basis: 0;    /* Start with 0 width and grow as needed */
+    max-width: 100%;  /* Ensure they don't grow beyond the container width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+
+.project.moving {
+    opacity: 0.5;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.project-details {
+    text-align: left;
+    margin-top: 15px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    display: none;
+}
+.project-details.open {
+    display: block;
+    max-height: 500px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #4fa9ff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
