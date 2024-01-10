@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import "_sass/minima.scss";
-@import "_sass/minima/_base.scss";
-@import "_sass/minima/_layout.scss";
-@import "_sass/minima/_syntax-highlighting.scss";
+@import "minima";
+@import "minima/base";
+@import "minima/layout";
+@import "minima/syntax-highlighting";
