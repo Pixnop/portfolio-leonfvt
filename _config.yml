@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 
 include:
-  - _includes
-  - _layouts
-  - _sass
-  - _posts
+  - _includes/
+  - _layouts/
+  - _sass/
+  - _posts/
